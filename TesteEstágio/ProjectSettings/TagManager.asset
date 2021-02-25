@@ -8,6 +8,14 @@ TagManager:
   - Players
   - Boxes
   - Palms
+  - Axes
+  - Knives
+  - Hammers
+  - UnfinishedRaft
+  - OpenCrates
+  - Ropes
+  - Floor
+  - Logs
   layers:
   - Default
   - TransparentFX

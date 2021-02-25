@@ -8,9 +8,6 @@ public class CameraController : MonoBehaviour
     public Transform followTransform;
     public Transform cameraTransform;
 
-    public Vector3 affObject;
-    public Vector3 affCamera;
-
     public float normalSpeed;
     public float fastSpeed;
     public float movementSpeed;
@@ -48,8 +45,6 @@ public class CameraController : MonoBehaviour
         if (followTransform != null)
         {
             transform.position = Vector3.Lerp(transform.position, followTransform.position, Time.deltaTime * movementTime);
-            affCamera = transform.position;
-            affObject = followTransform.position;
         }
         else
         {
